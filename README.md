@@ -11,6 +11,6 @@ Built with HTML5/CSS/JavaScript.
 
 ## Screenshots
 
-![Running Program Screenshot](./screenshot1.png)
+![Running Program Screenshot](./Screenshot1.png)
 
-![Running Program Screenshot](./screenshot2.png)
+![Running Program Screenshot](./Screenshot2.png)

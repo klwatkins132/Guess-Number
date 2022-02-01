@@ -12,9 +12,10 @@ document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
   console.log(guess, typeof guess);
 
-  // When there is no input
-  if (!guess) {
-    displayMessage('⛔️ No number!');
+  // When there is no input or not in range
+  if (!guess || guess < 1 || guess > 20) {
+    document.querySelector('.message').textContent = 'Not a valid number!';
+    displayMessage('⛔️ Not a valid number!');
   } else if (guess === secretNumber) {
     displayMessage('🎉 Correct Number!');
 
